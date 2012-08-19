@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+}
+p{
+	line-height:20px;
+	color:#000000;
+	text-align:justify;
+}
+body{
+	background:#2f1b00;
+	text-align:center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+	background:url(images/bg_body.gif) repeat-y left top;
+}
+#top_space{
+	float:left;
+	width:1000px;
+	height:50px;
+}
+#left_condent{
+	float:left;
+	width:283px;
+}
+#right_condent{
+	float:right;
+	width:713px;
+	padding-right:4px;
+}
+#nav_box{
+	float:left;
+	display:inline;
+	padding-left:100px;
+	width:613px;
+	height:51px;
+	background:url(images/bg_nav.gif) repeat-x left top;
+}
+#nav_box ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#nav_box ul li{
+	float:left;
+}
+#nav_box ul li a{
+	display:block;
+	float:left;
+	height:51px;
+	text-decoration:none;
+	text-indent:-1000em;
+}
+
+#nav_box ul li a.home{
+	width:86px;
+	background:url(images/nav_home.gif) no-repeat left top;
+}
+#nav_box ul li a.home:hover{
+	background-position:left bottom;
+}
+#nav_box ul li a.homeselected{
+	width:86px;
+	background:url(images/nav_home.gif) no-repeat left bottom;
+}
+#nav_box ul li a.aboutus{
+	width:112px;
+	background:url(images/nav_aboutus.gif) no-repeat left top;
+}
+#nav_box ul li a.aboutus:hover{
+	background-position:left bottom;
+}
+#nav_box ul li a.aboutusselected{
+	width:112px;
+	background:url(images/nav_aboutus.gif) no-repeat left bottom;
+}
+#nav_box ul li a.room{
+	width:86px;
+	background:url(images/nav_rooms.gif) no-repeat left top;
+}
+#nav_box ul li a.room:hover{
+	background-position:left bottom;
+}
+#nav_box ul li a.roomsselected{
+	width:86px;
+	background:url(images/nav_rooms.gif) no-repeat left bottom;
+}
+#nav_box ul li a.tariff{
+	width:89px;
+	background:url(images/nav_tariff.gif) no-repeat left top;
+}
+#nav_box ul li a.tariff:hover{
+	background-position:left bottom;
+}
+#nav_box ul li a.tariffselected{
+	width:89px;
+	background:url(images/nav_tariff.gif) no-repeat left bottom;
+}
+#nav_box ul li a.facilities{
+	width:112px;
+	background:url(images/nav_facilities.gif) no-repeat left top;
+}
+#nav_box ul li a.facilities:hover{
+	background-position:left bottom;
+}
+#nav_box ul li a.facilitieselected{
+	width:112px;
+	background:url(images/nav_facilities.gif) no-repeat left bottom;
+}
+#nav_box ul li a.routemap{
+	width:110px;
+	background:url(images/nav_routemap.gif) no-repeat left top;
+}
+#nav_box ul li a.routemap:hover{
+	background-position:left bottom;
+}
+#nav_box ul li a.routemapselected{
+	width:110px;
+	background:url(images/nav_routemap.gif) no-repeat left bottom;
+}
+#nav_box ul li a.contactus{
+	width:120px;
+	background:url(images/nav_contactus.gif) no-repeat left top;
+}
+#nav_box ul li a.contactus:hover{
+	background-position:left bottom;
+}
+#nav_box ul li a.contactusselected{
+	width:120px;
+	background:url(images/nav_contactus.gif) no-repeat left bottom;
+}
+
+/* Flash */
+#flash{
+	float:left;
+	width:713px;
+	height:226px;
+	background:url(images/img_flash.jpg) no-repeat left top;
+}
+
+#currentpage_indicater{
+	width:713px;
+	float:left;
+	padding:20px 0px;
+}
+#currentpage_box{
+	float:right;
+	margin-right:20px;
+	display:inline;
+	border:1px solid #58380e;
+	text-transform:uppercase;
+	font-size:10px;
+	color:#000000;
+	padding:3px;
+}
+
+#body_condent{
+	float:left;
+	width:673px;
+	padding:20px;
+}
+
+h2.home{
+	background:url(images/heading_welcome.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+h2.aboutus{
+	background:url(images/heading_aboutus.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+h2.rooms{
+	background:url(images/heading_rooms.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+h2.tariff{
+	background:url(images/heading_tariff.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+h2.facilities{
+	background:url(images/heading_facilities.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+h2.contactus{
+	background:url(images/heading_contactus.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+
+h2.hotelreservation{
+	background:url(images/heading_hotelreservation.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+h2.guestsay{
+	background:url(images/heading_guestsay.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+h2.locationmap{
+	background:url(images/heading_locationmap.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+h2.booking{
+	background:url(images/heading_booking.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+h2.routemap{
+	background:url(images/heading_routemap.gif) no-repeat left top;
+	text-indent:-1000em;
+	padding-bottom:10px;
+}
+
+/* Reservation box */
+#reservation_box{
+	width:243px;
+	padding:20px;
+}
+#separate_box{
+	width:1000px;
+	background:url(images/bg_separatebox.gif) repeat-y left top;
+	float:left;
+	margin-bottom:20px;
+}
+#separate_box_right_left{
+	width:306px;
+	float:left;
+	margin-left:20px;
+	padding:10px 0px;
+	display:inline;
+}
+#separate_box_right_right{
+	width:306px;
+	float:right;
+	margin-right:20px;
+	display:inline;
+	padding:10px 0px;
+}
+#followus{
+	float:left;
+	width:243px;
+	padding:0px 20px;
+}
+#followus p{
+	color:#FFFFFF;
+}
+
+/* table */
+table p{
+	color:#FF9900;
+	font-weight:bold;
+}
+table.reservation td{
+	padding:4px;
+}
+select{
+	border:1px solid #544118;
+	background-color:#432e01;
+	color:#FFFFFF;
+	width:50px;
+}
+input{
+	background-color:#432e01;
+	color:#FFFFFF;
+	text-align:center;
+}
+select.big{
+	width:200px;
+}
+
+/* Tariff */
+table.tariff{
+	border:2px solid #000000;
+	margin-left:80px;
+}
+table.tariff td{
+	padding:10px;
+	border:1px solid #000000;
+}
+table.tariff td.center{
+	text-align:center;
+	color:#000000;
+	text-transform:uppercase;
+}
+table.tariff h3{
+	font-size:15px;
+}
+
+/* Booking */
+table.booking td{
+	border:none;
+	padding:5px;
+	
+}
+table.booking input{
+	background-color:#fef1e0;
+	color:#000000;
+	text-align:left;
+}
+table.booking radio{
+	background-color:#FFFFFF;
+}
+table.booking input.normal{
+	background-color:#CCCCCC;
+	color:#000000;
+	width:auto;
+	text-align:center;
+}
+
